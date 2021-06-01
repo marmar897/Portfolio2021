@@ -1,6 +1,8 @@
 # Portfolio2021
 web page created to act as my portfolio
 
+this is the link https://mariana-vazquez-portfolio2021.netlify.app
+
 Minimum​ ​Requirements: 
 
  1​ ​main​ ​page​ ​(index.html)​ ​with​ ​multiple​ ​sections 
