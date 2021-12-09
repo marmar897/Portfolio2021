@@ -19,3 +19,7 @@ Contact form page (  text input field, dropdown field , radio button fields, etc
 
 Use​ ​a​ ​Button​ ​to​ ​submit​ ​the​ ​form​ ​content.
 
+====================================================================================================
+Adding react componenets to this project/portfolio
+Practicing adding react to already exsisting html,css,js based project. 
+
