@@ -1,0 +1,109 @@
+body {
+  background-color: #FFEFD5;
+  text-align: center;
+  font-family: Georgia;
+}
+
+h1 {
+  color: SaddleBrown;
+  margin-left: 20px;
+}
+
+P {
+ text-align: left;
+ color: Maroon;
+ margin-left: 120px;
+ margin-right: 120px;
+ border-radius: 5px;
+ background-color: tan;
+ padding: 20px;
+}
+
+h2 {
+  color: SaddleBrown;
+}
+hr {
+  border-color: SaddleBrown;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: tan;
+ }
+
+li {
+  float: left;
+  display: inline-block;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #784212;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #784212;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #8B4513;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: tan;
+  padding: 20px;
+  /*margin: 100px;*/
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  /*margin- 100px;*/
+}
+
+img {
+  object-fit:cover;
+  width: 200px;
+  height: 300px;
+  border: solid 1px #CCC;
+  margin-top: 25px;
+}
+
+label{
+  color: maroon;
+}
