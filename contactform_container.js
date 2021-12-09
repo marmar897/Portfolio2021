@@ -1,3 +1,5 @@
+//import emailjs from 'emailjs-com';
+
 class ContactForm_container extends React.Component {
     constructor(props) {
         super(props);
@@ -43,7 +45,17 @@ class ContactForm_container extends React.Component {
             subject: this.state.subject
         }
         console.log(filledForm);
+
         alert("You have made a form and it has been sent to Mariana!")
+
+    //     emailjs.sendForm('service_0nb6yg5', 'template_04ev38q', event.target, 
+    //    'user_d1OJ5CU5VisX06Be5rNjQ')
+       emailjs.sendForm("service_0nb6yg5","template_kjsktxf", event.target, 'user_d1OJ5CU5VisX06Be5rNjQ')
+         .then((result) => {
+             console.log(result.text);
+         }, (error) => {
+             console.log(error.text);
+         });
 
     }
 
