@@ -62,7 +62,6 @@ class ContactForm_container extends React.Component {
     render() {
         return (
         <div>
-            <h1>Contact Form React component </h1>
             <div className="container">
             <form onSubmit = {this.onSubmit}>
                 <label for="fname">First Name</label>
