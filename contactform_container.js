@@ -4,7 +4,7 @@ class ContactForm_container extends React.Component {
         super(props);
         this.state = {
             fname: '',
-            lanme: '',
+            lname: '',
             email: '',
             subject: ''
         }
@@ -66,10 +66,10 @@ class ContactForm_container extends React.Component {
             <div className="container">
             <form onSubmit = {this.onSubmit}>
                 <label for="fname">First Name</label>
-                <input type="text" onChange = {this.updatefName} id="fname" name="firstname" placeholder="Your name..."required/>
+                <input type="text" onChange = {this.updatefName} id="fname" name="fname" placeholder="Your name..."required/>
 
                 <label for="lname">Last Name</label>
-                <input type="text" onChange = {this.updatelName} id="lname" name="lastname" placeholder="Your last name..."/>
+                <input type="text" onChange = {this.updatelName} id="lname" name="lname" placeholder="Your last name..."/>
 
                 <label for="email">Email</label>
                 <input type="text" onChange = {this.updateEmail} id="email" name="email" placeholder="Your email..."/>
