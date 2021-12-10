@@ -1,4 +1,3 @@
-//import emailjs from 'emailjs-com';
 
 class ContactForm_container extends React.Component {
     constructor(props) {
