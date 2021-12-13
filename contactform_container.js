@@ -56,6 +56,14 @@ class ContactForm_container extends React.Component {
              console.log(error.text);
          });
 
+         
+            // <Alert  variant="success">
+            //   This is a {variant} alert—check it out!
+            // </Alert>
+        ;
+        alert("You have made a form and it has been sent to Mariana!")
+
+
     }
 
 
