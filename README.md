@@ -23,3 +23,8 @@ Use​ ​a​ ​Button​ ​to​ ​submit​ ​the​ ​form​ ​conten
 Adding react componenets to this project/portfolio
 Practicing adding react to already exsisting html,css,js based project. 
 
+Form on about me page is created using react and sends me an email with your message :) 
+The form does not render on localHost becuase the HTTP request failed because the emailJS. BUT does work in the link above :)
+
+I wish to add a download button to the projects page and animation to the home page 
+
